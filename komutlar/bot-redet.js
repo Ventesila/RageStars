@@ -3,7 +3,7 @@ const Discord = require('discord.js');//Rache Code , Telif Hakları Vardır, htt
 //Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 exports.run = function(client, message, args) {
   //Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-  if (!message.member.roles.cache.has("792010324781563915"))  return message.channel.send(`:x: Bu komutu kullanabilmek için "\`BotList Yetkili\`" yetkisine sahip olmalısın.`);
+  if (!message.member.roles.cache.has("1042023961858416680"))  return message.channel.send(`:x: Bu komutu kullanabilmek için "\`BotList Yetkili\`" yetkisine sahip olmalısın.`);
 	let botisim = args[0]//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
   let sahip = args[1]//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
   let sebep = args[2]//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
